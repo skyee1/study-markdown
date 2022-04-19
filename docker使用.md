@@ -6,7 +6,17 @@
 docker images
 `
 
-### 启动镜像
+### 启动镜像（开机）
 `
 docker run -itd --name ubuntu-test ubuntu
+`
+
+### 查看运行信息
+`
+docker ps
+`
+
+### 进入镜像
+`
+docker exec -it ubuntu-test /bin/bash
 `
